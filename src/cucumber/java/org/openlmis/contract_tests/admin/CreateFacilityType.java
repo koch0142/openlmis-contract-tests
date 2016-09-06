@@ -1,26 +1,17 @@
 package org.openlmis.contract_tests.admin;
 
+import cucumber.api.java.en.Given;
+import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
-
-        import cucumber.api.java.en.Given;
-        import io.restassured.http.ContentType;
-        import io.restassured.response.Response;
-import javafx.beans.binding.When;
-
-import java.io.IOException;
-        import java.util.Properties;
-        import static io.restassured.RestAssured.given;
-import static io.restassured.path.json.JsonPath.from;
-import static org.hamcrest.Matchers.notNullValue;
+import static io.restassured.RestAssured.given;
 import static org.jglue.fluentjson.JsonBuilderFactory.buildObject;
-        import static org.openlmis.contract_tests.common.LoginStepDefs.ACCESS_TOKEN;
-        import static org.openlmis.contract_tests.common.TestVariableReader.baseUrlOfService;
-/**
- * Created by serwis on 05.09.16.
- */
+import static org.openlmis.contract_tests.common.LoginStepDefs.ACCESS_TOKEN;
+import static org.openlmis.contract_tests.common.TestVariableReader.baseUrlOfService;
 
-    public class CreateFacilityType {
+
+
+public class CreateFacilityType {
     private Response createFacilityType;
     private Response getFacilityTypeResponse;
 
