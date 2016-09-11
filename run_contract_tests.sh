@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-curl -LO https://raw.githubusercontent.com/OpenLMIS/openlmis-config/master/.env
+#curl -LO https://raw.githubusercontent.com/OpenLMIS/openlmis-config/master/.env
 
 /usr/local/bin/docker-compose -f $1 run contract_tests
 

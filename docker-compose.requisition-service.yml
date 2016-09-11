@@ -14,7 +14,6 @@ services:
       - 'gradle'
       - 'clean'
       - 'cucumber'
-      - '-Ptags=@admin'
   requisition:
     image: openlmis/requisition
     env_file: .env

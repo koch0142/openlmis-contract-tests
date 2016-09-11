@@ -2,3 +2,8 @@
 .gradle
 build/
 .env
+gradle/
+gradlew
+gradlew.bat
+logs/
+target/
