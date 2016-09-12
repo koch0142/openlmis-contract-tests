@@ -1,4 +1,3 @@
-# obojętnie jaka nazwa
 Feature: Learning cucumber
     Scenario: test1
         When 2+2
